@@ -24,6 +24,9 @@
     -webkit-box-shadow: 0 0 5px black;
             box-shadow: 0 0 5px black;
   }
+  .print > article.preview :global(.noShow) {
+    display: none;
+  }
 }
 
 @media print {

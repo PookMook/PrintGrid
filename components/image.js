@@ -16,8 +16,13 @@ export default (props) => {
     
   }
 
+  const array = [props.className,styles.image]
+  if(img==='/default.png'){
+    array.push("noShow")
+  }
+
   return (
-    <figure className={[props.className,styles.image].join(' ')} style={{backgroundImage:`url('${img}')`}}>
+    <figure className={array.join(' ')} style={{backgroundImage:`url('${img}')`}} >
       
     <label><input type="file" onChange={e=>handleImage(e)}/></label>
 
