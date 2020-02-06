@@ -1,0 +1,49 @@
+.print{
+  
+  @media screen{
+    min-height: 100vh;
+
+    > p {
+      margin:0;
+      padding:1rem;
+      background-color: black;
+      color:white;
+      cursor: pointer;
+      &.previewOn{
+        background-color: green;
+      }
+    }
+    
+    > article{
+      background-color:#c0c0ff;
+      &.preview{
+        width:8in;
+        height:10.5in;
+        background-color:#ffffff;
+        margin:2rem auto;
+        border:1px solid #c0c0c0;
+        box-shadow: 0 0 5px black;
+      }
+    }
+  }
+
+
+
+  @media print {
+    @page {
+      size: legal;
+      margin:0;
+    }
+    >p {
+      display:none
+    }
+    > article{
+      width: 100%;
+      height:100%;
+      position:absolute;
+      top:0px;
+      bottom:0px;
+    }
+  }
+
+}

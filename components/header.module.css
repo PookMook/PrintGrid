@@ -1,0 +1,6 @@
+.header {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-area: 1 / 1 / 2 / -1;
+}
+/*# sourceMappingURL=header.module.css.map */

@@ -1,0 +1,34 @@
+.day{
+  background-color:white;
+  border:1px solid black;
+  > h2 {
+    margin:0;
+    text-align: right;
+    font-weight: normal;
+    font-weight: 1rem;
+  }
+  
+  &.day1{
+    grid-column-start: 1;
+    background-color:#f0f0f0;
+  }
+  &.day2{
+    grid-column-start: 2;
+  }
+  &.day3{
+    grid-column-start: 3;
+  }
+  &.day4{
+    grid-column-start: 4;
+  }
+  &.day5{
+    grid-column-start: 5;
+  }
+  &.day6{
+    grid-column-start: 6;
+  }
+  &.day0{
+    grid-column-start: 7;
+    background-color:#f0f0f0;
+  }
+}

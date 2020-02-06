@@ -1,0 +1,6 @@
+.header {
+  grid-column-end: -1;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+}
+/*# sourceMappingURL=footer.module.css.map */

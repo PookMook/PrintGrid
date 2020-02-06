@@ -1,0 +1,49 @@
+.day {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.day > h2 {
+  margin: 0;
+  text-align: right;
+  font-weight: normal;
+  font-weight: 1rem;
+}
+
+.day.day1 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  background-color: #f0f0f0;
+}
+
+.day.day2 {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+}
+
+.day.day3 {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+}
+
+.day.day4 {
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+}
+
+.day.day5 {
+  -ms-grid-column: 5;
+      grid-column-start: 5;
+}
+
+.day.day6 {
+  -ms-grid-column: 6;
+      grid-column-start: 6;
+}
+
+.day.day0 {
+  -ms-grid-column: 7;
+      grid-column-start: 7;
+  background-color: #f0f0f0;
+}
+/*# sourceMappingURL=day.module.css.map */
