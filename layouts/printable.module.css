@@ -46,5 +46,8 @@
     top: 0px;
     bottom: 0px;
   }
+  .print > article :global(.noShow) {
+    display: none;
+  }
 }
 /*# sourceMappingURL=printable.module.css.map */

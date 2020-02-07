@@ -23,9 +23,8 @@
         margin:2rem auto;
         border:1px solid #c0c0c0;
         box-shadow: 0 0 5px black;
-
         :global(.noShow){
-          display:none
+          display:none;
         }
       }
     }
@@ -47,6 +46,9 @@
       position:absolute;
       top:0px;
       bottom:0px;
+      :global(.noShow){
+        display:none;
+      }
     }
   }
 
